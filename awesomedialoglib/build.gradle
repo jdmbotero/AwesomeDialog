@@ -1,18 +1,18 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.blennerSilva'
+group='com.github.jdmbotero'
 
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 6
-        versionName "2.0.5"
+        versionCode 7
+        versionName "2.0.6"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
